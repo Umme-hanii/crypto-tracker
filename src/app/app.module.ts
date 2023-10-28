@@ -7,9 +7,16 @@ import { AppComponent } from './app.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MaterialDesignModule } from './modules/material-design.module'
 import { NavBarComponent } from './components/nav-bar/nav-bar.component'
+import { CoinsListComponent } from './components/coins-list/coins-list.component'
+import { CoinDetailsComponent } from './components/coin-details/coin-details.component'
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent],
+  declarations: [
+    AppComponent,
+    NavBarComponent,
+    CoinsListComponent,
+    CoinDetailsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
