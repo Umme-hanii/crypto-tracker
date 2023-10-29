@@ -1,11 +1,37 @@
 .banner-card {
   background-color: #2196f3;
   color: white;
-}
-
-.banner-img {
-  width: 100%;
-  height: 10rem;
-  background-image: url('../../../assets/banner-img.jpg');
+  text-align: center;
+  height: 30rem;
+  background: linear-gradient(rgba(0, 0, 0, 1), 40%, rgba(255, 255, 255, 0.4)),
+    url('../../../assets/bit-coin.jpeg');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  border-radius: 0px;
+
+  .mat-card-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+    .mat-card-title {
+      font-family: 'Nosifer';
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.1089rem;
+      line-height: 1.2;
+      margin-bottom: 15px;
+    }
+
+    .mat-card-subtitle {
+      font-size: 0.8rem;
+      color: darkgray;
+      text-transform: capitalize;
+      font-weight: 500;
+      line-height: 1.57;
+      letter-spacing: 0.1rem;
+    }
+  }
 }
